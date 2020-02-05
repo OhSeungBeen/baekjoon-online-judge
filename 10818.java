@@ -24,6 +24,5 @@ public class Main {
         max = temp;
     }
     System.out.println(min + " " + max);
-    
   }
 }
