@@ -8,15 +8,15 @@ public class Main1193 {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     int n = Integer.parseInt(br.readLine());
 
-    int sequence = 0;
+    int line = 0;
     int i = 1;
       
     while(i <= n) {
-      i += 1 + sequence++;
+      i += 1 + line++;
     }
     
-    int numerator = n - (i- sequence) + 1;
-    int denominator = sequence - numerator + 1;
+    int numerator = n - (i- line) + 1;
+    int denominator = line - numerator + 1;
     
     if(sequence % 2 == 0) {
       System.out.println(numerator + "/" + denominator);
