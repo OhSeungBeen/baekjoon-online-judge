@@ -24,6 +24,7 @@ public class Main2775 {
           }
         }
       }
+      
       System.out.println(apt[floor][number - 1]);
     }
   }
