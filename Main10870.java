@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+public class Main10870 {
   
   static int getFibonacci(int n) {
     if(n == 0)
