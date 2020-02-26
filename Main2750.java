@@ -26,5 +26,6 @@ public class Main2750 {
     for(int number : numbers) {
       System.out.println(number);
     }
+    
   }
 }
